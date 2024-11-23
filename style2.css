@@ -1,0 +1,122 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    font-family: "Sen", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+    
+header{
+    width: 100%;
+    height: 88px;
+    background-color: #000;
+    position: relative;
+}
+
+.dive{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 3%;
+    left: 3%;
+}
+#nav{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: right;
+    flex-flow: row nowrap;
+}
+#nav a{
+    display: inline-block;
+    text-align: center;
+    width: 110px;
+    height: 88px;
+    line-height: 88px;
+    color:white;
+    text-decoration: none;
+    
+    transition: background 0.3s linear;
+}
+
+#nav a:hover{
+    background-color: #5221e6;
+}
+
+.frame_43{
+    display: flex;
+    margin: auto;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.text_frame_43{
+    text-align: left;
+}
+
+.text_frame_43 h1{
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+}
+
+.text_frame_43 pre{
+    font-weight: 400;
+    font-size:18px;
+    color: #8491A0;
+    font-family: "San", sans-serif;
+}
+
+.container_input{
+    color: white;
+    margin-left: 3%;
+}
+
+.container_inputs div{
+    margin-bottom: 24px;
+}
+
+.container_inputs label{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.container_inputs input{
+    background-color: #181823;
+    color: white;
+    width: 526px;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+
+.container_inputs button{
+    background-color: #5221e6;
+    color: #fff;
+    height: 75px;
+    width: 526px;
+    border: none;
+    
+    font-size: 18px;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+.container_inputs a{
+    display: flex;
+    justify-content: flex-end;
+    transition: background 0.3s linear;
+    color:#5221e6;
+    text-decoration: none;
+}
